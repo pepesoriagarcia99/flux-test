@@ -7,8 +7,6 @@ import reactor.core.publisher.Flux;
 import java.time.Duration;
 import java.time.Instant;
 
-import static org.springframework.http.MediaType.APPLICATION_NDJSON_VALUE;
-import static org.springframework.http.MediaType.TEXT_EVENT_STREAM_VALUE;
 
 @RestController("/")
 public class Foo {
